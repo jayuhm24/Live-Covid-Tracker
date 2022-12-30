@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2 {
+    color: aqua;
+    text-align: center;
+}
+
+h1 {
+    color: aqua;
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+
+.card1 {
+    background-color: rgb(59, 59, 224);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card2 {
+    background-color: rgb(86, 205, 35);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card3 {
+    background-color: rgb(207, 239, 26);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card4 {
+    background-color: rgb(236, 136, 37);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card5 {
+    background-color: rgb(86, 194, 237);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card6 {
+    background-color: rgb(186, 46, 237);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.card4:hover {
+    transform: scale(1.1);
+}
+
+.card5:hover {
+    transform: scale(1.1);
+}
+
+.card6:hover {
+    transform: scale(1.1);
+}
+
+.card__name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
